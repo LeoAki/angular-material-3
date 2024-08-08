@@ -1,0 +1,17 @@
+<h2 mat-dialog-title>Hola {{data.name}}</h2>
+<mat-dialog-content>
+  <p>¿Cuál es tu animal favorito?</p>
+  <mat-form-field>
+    <mat-label>Animal favorito</mat-label>
+    <input matInput [(ngModel)]="animal" />
+  </mat-form-field>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancelar</button>
+  <button mat-button [mat-dialog-close]="animal()" cdkFocusInitial>Ok</button>
+</mat-dialog-actions>
+
+<!-- mat-dialog-close -->
+<!-- [Attr] Agregado a un <button>,
+hace que el botón cierre el diálogo
+con un resultado opcional del valor enlazado. -->

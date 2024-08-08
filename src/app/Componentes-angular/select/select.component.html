@@ -1,0 +1,20 @@
+<h4>mat-select básico</h4>
+<mat-form-field>
+  <mat-label>Comida favorita</mat-label>
+  <mat-select>
+    @for (food of foods; track food) {
+      <mat-option [value]="food.value">{{food.viewValue}}</mat-option>
+    }
+  </mat-select>
+</mat-form-field>
+
+<h4>Select básico y nativo</h4>
+<mat-form-field>
+  <mat-label>Carros</mat-label>
+  <select matNativeControl required>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </select>
+</mat-form-field>
