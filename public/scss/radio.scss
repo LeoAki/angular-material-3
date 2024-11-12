@@ -1,109 +1,190 @@
 // Basic
 .mat-mdc-radio-button {
     //Cambia el radio del layer size
-    --mdc-radio-state-layer-size: 80px;
-
+    --mdc-radio-state-layer-size: 40px;
     // cambia el background color del ripple
-    --mat-radio-ripple-color: red !important;
-
+    --mat-radio-ripple-color: #ff00bf !important;
     //Cambiar checked radio ripled background color
-    --mat-radio-checked-ripple-color: blue !important;
+    --mat-radio-checked-ripple-color: #ff7b00 !important;
 
 
     //cambiar unselected radio border color
-    --mdc-radio-unselected-icon-color: black;
-
+    --mdc-radio-unselected-icon-color: #ff4800bb;
     //hover to change unselect radio border-color
-    --mdc-radio-unselected-hover-icon-color: green;
-
+    --mdc-radio-unselected-hover-icon-color: #01db5c;
     //Focus to chanfe unselect radio border-color
-    --mdc-radio-unselected-focus-icon-color: purple;
+    --mdc-radio-unselected-focus-icon-color: #8400ff;
 
 
     // change selected radio border.color
-    --mdc-radio-selected-icon-color: pink !important;
-
+    --mdc-radio-selected-icon-color: #00c493 !important;
     //hover to change selected radio border-color
-    --mdc-radio-selected-hover-icon-color: red !important;
-
+    --mdc-radio-selected-hover-icon-color: #ff21a2 !important;
     //Focus to chanfe unselect radio border-color
-    --mdc-radio-selected-focus-icon-color: brown !important;
-
+    --mdc-radio-selected-focus-icon-color: #00c493 !important;
     //pressed to change selected radio border-color
-    --mdc-radio-selected-pressed-icon-color: rgb(209, 254, 28) !important;
-
+    --mdc-radio-selected-pressed-icon-color: #f09c00 !important;
 
 
     // change radio label color
-    --mat-radio-label-text-color: brown;
-
+    --mat-radio-label-text-color: #ff4800a9;
     // Font radio label color
     --mat-radio-label-text-font: Roboto, sans-serif;
-
     // Size radio label color
     --mat-radio-label-text-size: 1rem;
-
     // Font radio label font-weigth
     --mat-radio-label-text-weight: 400;
-
     // Font radio label font-letter spacing
-    --mat-radio-label-text-tracking: 0.05rem;
-
+    --mat-radio-label-text-tracking: 0.016rem;
     // Font radio label line-heigth
     --mat-radio-label-text-line-height: 1.25rem;
 
-    // change disabled radio label color
-    --mat-radio-disabled-label-color: purple;
 
     // change disabled radio label color
+    --mat-radio-disabled-label-color: #0206dd61;
+    // change disabled unselected radio border opacity
     --mdc-radio-disabled-unselected-icon-opacity: 0.6;
+    // change disabled unselected radio border-color
+    --mdc-radio-disabled-unselected-icon-color: #0206ddd8;
+    // change disabled selected radio border-color
+    --mdc-radio-disabled-selected-icon-color: #02aaddd8;
+    // change disabled selected radio border-opacity
+    --mdc-radio-disabled-selected-icon-opacity: 0.38;
 }
 
 
 //Accent
 .mat-accent.mat-mdc-radio-button {
-    --mat-radio-label-text-color: rgb(64, 113, 191) !important;
+    // change radio label color
+    --mat-radio-label-text-color: #ba00cf !important;
+    // hover to change unselect radio border-color
+    --mdc-radio-unselected-icon-color: #ba00cf !important;
+    //hover to change unselected radio border-color
+    --mdc-radio-unselected-hover-icon-color: #ba00cf !important;
+    //Hover to chanfe selected radio border-color
+    --mdc-radio-selected-hover-icon-color: #ba00cf !important;
+    //Focus to chanfe selected radio border-color
+    --mdc-radio-selected-focus-icon-color: #ba00cf !important;
+    //change selected radio border-color
+    --mdc-radio-selected-icon-color: #ba00cf !important;
+    //pressed to change selected radio border-color
+    --mdc-radio-selected-pressed-icon-color: #ba00cf !important;
+    //Cambiar checked radio ripled background color
+    --mat-radio-checked-ripple-color: #ba00cf !important;
 }
 
 
 //Primary
 .mat-primary.mat-mdc-radio-button {
-    --mat-radio-label-text-color: rgb(44, 209, 63) !important;
+    // change radio label color
+    --mat-radio-label-text-color: #02aec9 !important;
+    // hover to change unselect radio border-color
+    --mdc-radio-unselected-icon-color: #02aec9 !important;
+    //hover to change unselected radio border-color
+    --mdc-radio-unselected-hover-icon-color: #02aec9 !important;
+    //Hover to chanfe selected radio border-color
+    --mdc-radio-selected-hover-icon-color: #02aec9 !important;
+    //Focus to chanfe selected radio border-color
+    --mdc-radio-selected-focus-icon-color: #02aec9 !important;
+    //change selected radio border-color
+    --mdc-radio-selected-icon-color: #02aec9 !important;
+    //pressed to change selected radio border-color
+    --mdc-radio-selected-pressed-icon-color: #02aec9 !important;
+    //Cambiar checked radio ripled background color
+    --mat-radio-checked-ripple-color: #02aec9 !important;
 }
 
 
 //Warn
 .mat-warn.mat-mdc-radio-button {
-    --mat-radio-label-text-color: rgb(157, 27, 135) !important;
+    // change radio label color
+    --mat-radio-label-text-color: #ff3b76 !important;
+    // hover to change unselect radio border-color
+    --mdc-radio-unselected-icon-color: #ff3b76 !important;
+    //hover to change unselected radio border-color
+    --mdc-radio-unselected-hover-icon-color: #ff3b76 !important;
+    //Hover to chanfe selected radio border-color
+    --mdc-radio-selected-hover-icon-color: #ff3b76 !important;
+    //Focus to chanfe selected radio border-color
+    --mdc-radio-selected-focus-icon-color: #ff3b76 !important;
+    //change selected radio border-color
+    --mdc-radio-selected-icon-color: #ff3b76 !important;
+    //pressed to change selected radio border-color
+    --mdc-radio-selected-pressed-icon-color: #ff3b76 !important;
+    //Cambiar checked radio ripled background color
+    --mat-radio-checked-ripple-color: #ff3b76 !important;
 }
 
 
 
 
-// globales
+// change radio size
 .mat-mdc-radio-button .mdc-radio__background {
     width: 30px !important;
     height: 30px !important;
 }
 
-// cambiar radio state label style
+// change radio state label style
 .mat-mdc-radio-button .mdc-radio {
     width: 30px !important;
     height: 30px !important;
     cursor: pointer;
 }
 
-// cambiar radio background base layer style
+// change radio background base layer style
 .mat-mdc-radio-button .mdc-radio__background::before {
     border-radius: 15% !important;
     width: 50px !important;
     height: 50px !important;   
 }
 
-// //Cambiar el circulo
-// .mat-mdc-radio-button
-//     .mdc-radio__native-colntrol:checked
-//     + .mdc-radio__background
-//     .mdc-radio__outer-circle {
-//     transform: scale(1) !important;
-// }
+// change radio label style
+.mat-internal-form-field > label {
+    margin-left: 0;
+    margin-right: 15px !important;
+    margin-right: 0;
+    padding-left: 0px !important;
+    padding-right: 0;
+}
+
+// //change radio riple style
+.mat-mdc-radio-button .mat-radio-ripple {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    border-radius: 15% !important;
+}
+
+// change radio inner-circle style
+.mat-mdc-radio-button .mdc-radio__inner-circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-width: 15px !important;
+    border-style: solid !important;
+    border-radius: 15% !important;
+}
+
+// change radio outer circle style
+.mat-mdc-radio-button .mdc-radio__outer-circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-width: 2px !important;
+    border-style: solid !important;
+    border-radius: 15% !important;
+}
+
+// change checked radio outer-circle size
+.mat-mdc-radio-button
+    .mdc-radio__native-colntrol:checked
+    + .mdc-radio__background
+    .mdc-radio__outer-circle {
+    transform: scale(0.5) !important;
+}
