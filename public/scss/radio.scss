@@ -1,0 +1,109 @@
+// Basic
+.mat-mdc-radio-button {
+    //Cambia el radio del layer size
+    --mdc-radio-state-layer-size: 80px;
+
+    // cambia el background color del ripple
+    --mat-radio-ripple-color: red !important;
+
+    //Cambiar checked radio ripled background color
+    --mat-radio-checked-ripple-color: blue !important;
+
+
+    //cambiar unselected radio border color
+    --mdc-radio-unselected-icon-color: black;
+
+    //hover to change unselect radio border-color
+    --mdc-radio-unselected-hover-icon-color: green;
+
+    //Focus to chanfe unselect radio border-color
+    --mdc-radio-unselected-focus-icon-color: purple;
+
+
+    // change selected radio border.color
+    --mdc-radio-selected-icon-color: pink !important;
+
+    //hover to change selected radio border-color
+    --mdc-radio-selected-hover-icon-color: red !important;
+
+    //Focus to chanfe unselect radio border-color
+    --mdc-radio-selected-focus-icon-color: brown !important;
+
+    //pressed to change selected radio border-color
+    --mdc-radio-selected-pressed-icon-color: rgb(209, 254, 28) !important;
+
+
+
+    // change radio label color
+    --mat-radio-label-text-color: brown;
+
+    // Font radio label color
+    --mat-radio-label-text-font: Roboto, sans-serif;
+
+    // Size radio label color
+    --mat-radio-label-text-size: 1rem;
+
+    // Font radio label font-weigth
+    --mat-radio-label-text-weight: 400;
+
+    // Font radio label font-letter spacing
+    --mat-radio-label-text-tracking: 0.05rem;
+
+    // Font radio label line-heigth
+    --mat-radio-label-text-line-height: 1.25rem;
+
+    // change disabled radio label color
+    --mat-radio-disabled-label-color: purple;
+
+    // change disabled radio label color
+    --mdc-radio-disabled-unselected-icon-opacity: 0.6;
+}
+
+
+//Accent
+.mat-accent.mat-mdc-radio-button {
+    --mat-radio-label-text-color: rgb(64, 113, 191) !important;
+}
+
+
+//Primary
+.mat-primary.mat-mdc-radio-button {
+    --mat-radio-label-text-color: rgb(44, 209, 63) !important;
+}
+
+
+//Warn
+.mat-warn.mat-mdc-radio-button {
+    --mat-radio-label-text-color: rgb(157, 27, 135) !important;
+}
+
+
+
+
+// globales
+.mat-mdc-radio-button .mdc-radio__background {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+// cambiar radio state label style
+.mat-mdc-radio-button .mdc-radio {
+    width: 30px !important;
+    height: 30px !important;
+    cursor: pointer;
+}
+
+// cambiar radio background base layer style
+.mat-mdc-radio-button .mdc-radio__background::before {
+    border-radius: 15% !important;
+    width: 50px !important;
+    height: 50px !important;   
+}
+
+// //Cambiar el circulo
+// .mat-mdc-radio-button
+//     .mdc-radio__native-colntrol:checked
+//     + .mdc-radio__background
+//     .mdc-radio__outer-circle {
+//     transform: scale(1) !important;
+// }

@@ -1,0 +1,193 @@
+// Basic Button
+.mat-mdc-outlined-button {
+    // change button background height
+    // --mdc-outlined-button-container-height: 20px !important;
+    // change button border-width
+    --mdc-outlined-button-outline-width: 1px !important;
+    // change button border-radius
+    --mdc-outlined-button-container-shape: 5px !important;
+    // change button border-color
+    --mdc-outlined-button-outline-color: #ff4d07 !important;
+    // change button ripple color
+    --mdc-outlined-button-ripple-color: #ff4d07 !important;
+    // change button label color
+    --mdc-outlined-button-label-text-color: blue !important;
+    // change button state layer color
+    --mdc-outlined-button-state-layer-color: #d45624 !important;
+    // hover to change button state layer opacity
+    --mdc-outlined-button-hover-state-layer-opacity: 0.3 !important;
+    // focus to change button state layer opacity
+    --mdc-outlined-button-focus-state-layer-opacity: 0.3 !important;
+    // pressed to change button state layer opacity
+    --mdc-outlined-button-pressed-state-layer-opacity: 0.3 !important;
+
+    // change label font-family
+    --mdc-outlined-button-label-text-font: Roboto, sans-serif !important;
+    // change label font size
+    --mdc-outlined-button-label-text-size: 0.7rem !important;
+    // change label letter-spacing
+    --mdc-outlined-button-label-text-tracking: 0.007rem !important;
+    // change label font-weight
+    --mdc-outlined-button-label-text-weight: 800 !important;
+
+    // change button touch target display
+    --mdc-outlined-button-touch-target-display: block !important;
+    // change button horizontal padding
+    --mdc-outlined-button-horizontal-padding: 24px !important;
+    // change button icon spacing (if you have icon)
+    --mdc-outlined-button-icon-spacing: 8px !important;
+    // change button icon offset (if you have icon)
+    --mdc-outlined-button-icon-offset: 8px !important;
+
+    // if you need background-color
+    background: #ffede7 !important;
+
+    // change disabled button border color
+    // --mdc-outlined-button-disabled-outline-color: #c4b7ff !important;
+    // change disabled button label color
+    // --mdc-outlined-button-disabled-label-color: #c4b7ff !important;
+}
+
+// change disabled stroked button style
+.mat-mdc-outlined-button.mat-mdc-button-disabled {
+    cursor: default;
+    color: #a38eff !important;
+    border-color: #c4b7ff !important;
+    background: #e1daff !important;
+}
+
+// change button style
+.mdc-button {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 64px !important;
+    padding:  0 10px !important;
+}
+
+// active to change button label color
+.mat-mdc-button-base:active {
+    color: #fff !important;
+}
+
+// acent theme
+.mat-accent.mat-mdc-button-base {
+    --mdc-outlined-button-outline-color: #ff00ea !important;
+    // change button label color
+    --mdc-outlined-button-label-text-color: #ff00ea !important;
+    // change button ripple color
+    --mdc-outlined-button-ripple-color: #ff00ea !important;
+    // change button state layer color
+    --mdc-outlined-button-state-layer-color: #ff4d07 !important;
+    // hover to change button state layer opacity
+    --mdc-outlined-button-hover-state-layer-opacity: 0.3 !important;
+    // focus to change button state layer opacity
+    --mdc-outlined-button-focus-state-layer-opacity: 0.3 !important;
+    // pressed to change button state layer opacity
+    --mdc-outlined-button-pressed-state-layer-opacity: 0.3 !important;
+
+    // if you need background-color
+    background: #ffe2fd !important;
+}
+
+
+// primary theme
+.mat-primary.mat-mdc-button-base {
+    --mdc-outlined-button-outline-color: #0044ff !important;
+    // change button label color
+    --mdc-outlined-button-label-text-color: #0044ff !important;
+    // change button ripple color
+    --mdc-outlined-button-ripple-color: #0044ff !important;
+    // change button state layer color
+    --mdc-outlined-button-state-layer-color: #0044ff !important;
+    // hover to change button state layer opacity
+    --mdc-outlined-button-hover-state-layer-opacity: 0.3 !important;
+    // focus to change button state layer opacity
+    --mdc-outlined-button-focus-state-layer-opacity: 0.3 !important;
+    // pressed to change button state layer opacity
+    --mdc-outlined-button-pressed-state-layer-opacity: 0.3 !important;
+
+    // if you need background-color
+    background: #e0e8ff !important;
+}
+
+// warn theme
+.mat-warn.mat-mdc-button-base {
+    --mdc-outlined-button-outline-color: #ff0077 !important;
+    // change button label color
+    --mdc-outlined-button-label-text-color: #ff0077 !important;
+    // change button ripple color
+    --mdc-outlined-button-ripple-color: #ff0077 !important;
+    // change button state layer color
+    --mdc-outlined-button-state-layer-color: #ff0077 !important;
+    // hover to change button state layer opacity
+    --mdc-outlined-button-hover-state-layer-opacity: 0.3 !important;
+    // focus to change button state layer opacity
+    --mdc-outlined-button-focus-state-layer-opacity: 0.3 !important;
+    // pressed to change button state layer opacity
+    --mdc-outlined-button-pressed-state-layer-opacity: 0.3 !important;
+
+    // if you need background-color
+    background: #ffe1ef !important;
+}
+
+// success theme
+.mat-success.mat-mdc-button-base {
+    --mdc-outlined-button-outline-color: #00c060 !important;
+    // change button label color
+    --mdc-outlined-button-label-text-color: #00c060 !important;
+    // change button ripple color
+    --mdc-outlined-button-ripple-color: #00c060 !important;
+    // change button state layer color
+    --mdc-outlined-button-state-layer-color: #00c060 !important;
+    // hover to change button state layer opacity
+    --mdc-outlined-button-hover-state-layer-opacity: 0.3 !important;
+    // focus to change button state layer opacity
+    --mdc-outlined-button-focus-state-layer-opacity: 0.3 !important;
+    // pressed to change button state layer opacity
+    --mdc-outlined-button-pressed-state-layer-opacity: 0.3 !important;
+
+    // if you need background-color
+    background: #d3ffe9 !important;
+}
+
+// warning theme
+.mat-warning.mat-mdc-button-base {
+    --mdc-outlined-button-outline-color: #e68a00 !important;
+    // change button label color
+    --mdc-outlined-button-label-text-color: #e68a00 !important;
+    // change button ripple color
+    --mdc-outlined-button-ripple-color: #e68a00 !important;
+    // change button state layer color
+    --mdc-outlined-button-state-layer-color: #e68a00 !important;
+    // hover to change button state layer opacity
+    --mdc-outlined-button-hover-state-layer-opacity: 0.3 !important;
+    // focus to change button state layer opacity
+    --mdc-outlined-button-focus-state-layer-opacity: 0.3 !important;
+    // pressed to change button state layer opacity
+    --mdc-outlined-button-pressed-state-layer-opacity: 0.3 !important;
+
+    // if you need background-color
+    background: #fff3e0 !important;
+}
+
+// danger theme
+.mat-danger.mat-mdc-button-base {
+    --mdc-outlined-button-outline-color: #ff0000 !important;
+    // change button label color
+    --mdc-outlined-button-label-text-color: #ff0000 !important;
+    // change button ripple color
+    --mdc-outlined-button-ripple-color: #ff0000 !important;
+    // change button state layer color
+    --mdc-outlined-button-state-layer-color: #ff0000 !important;
+    // hover to change button state layer opacity
+    --mdc-outlined-button-hover-state-layer-opacity: 0.3 !important;
+    // focus to change button state layer opacity
+    --mdc-outlined-button-focus-state-layer-opacity: 0.3 !important;
+    // pressed to change button state layer opacity
+    --mdc-outlined-button-pressed-state-layer-opacity: 0.3 !important;
+
+    // if you need background-color
+    background: #ffe3e3 !important;
+}

@@ -1,0 +1,83 @@
+// Basic Button
+
+.mat-mdc-button {
+    // cambiar la altura de un botón
+    --mdc-text-button-container-height: 30px !important;
+
+    // cambiar button border-radius
+    --mdc-text-button-container-shape: 5px !important;
+
+    // cambiar button label color
+    --mdc-text-button-label-text-color: red;
+
+    // cambiar button label font-size
+    --mdc-text-button-label-text-size: 1rem;
+
+    // cambiar button lavel letter spacing
+    --mdc-text-button-label-text-tracking: 0.1rem;
+
+    // cambiar button label front-weig
+    --mdc-text-button-label-text-weight: 500;
+
+    // cambiar button riple color
+    --mat-text-button-ripple-color: blue;
+
+    // cambiar button background state color
+    --mat-text-button-state-layer-color: pink !important;
+
+    // hover to change button state layer opacity
+    --mat-text-button-hover-state-layer-opacity: 0.6;
+
+    // hover to change button state layer focus
+    --mat-text-button-focus-state-layer-opacity: 0.6;
+
+    // cambiar button horizontal padding
+    --mat-text-button-horizontal-padding: 24px !important;
+
+    // cambiar button horizontal padding
+    --mat-text-button-horizontal-padding: 24px !important;
+}
+
+
+// cambiar estilos a un botón
+.mdc-button {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px !important;
+    padding:  0 8px !important;
+}
+
+// camiar color a un activo
+.mat-mdc-button:active {
+    color: #fff !important;
+}
+
+// cambiar disabled button style
+.mat-mdc-button-disabled {
+    cursor: default;
+    pointer-events: none;
+    color: #9f8aff !important;
+    background: #f1eeff !important;
+}
+
+
+// ACENT
+.mat-accent.mat-mdc-button-base {
+    // cambiar color label
+    --mdc-text-button-label-text-color: red !important;  
+}
+
+
+// primary
+.mat-primary.mat-mdc-button-base {
+    // cambiar color label
+    --mdc-text-button-label-text-color: green !important;  
+}
+
+// warn
+.mat-warn.mat-mdc-button-base {
+    // cambiar color label
+    --mdc-text-button-label-text-color: green !important;  
+}

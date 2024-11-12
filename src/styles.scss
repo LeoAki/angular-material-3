@@ -7,6 +7,8 @@
 //   border-width: 4px,
 //   border-radius: 2px,
 // ));
+
+
 html {
   @include mat.core();
   // Apply the light theme by default
@@ -22,7 +24,7 @@ html {
   // @include mat.button-typography(m3-theme-v2.$light-theme);
 
   //// Focus
-  // @include mat.strong-focus-indicators-theme(red);
+  // @include mat.strong-focus-indicators-theme(green);
 
   // @include mat.button-theme(m3-theme-v2.$light-theme);
 }
@@ -45,3 +47,6 @@ body {
     @include mat.elevation(8);
   }
 }
+@import '../public/scss/radio.scss';
+@import '../public/scss/basic-button.scss';
+@import '../public/scss/stroked-button.scss';
